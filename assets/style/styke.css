@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Bai;
+    src: url(../fonts/baijamjuree/BaiJamjuree-Regular.ttf);
+}
+
+*{
+    font-family: Bai;
+    padding: 0;
+    margin: 0;
+}
+
+.everything{
+    width: 100%;
+    height: auto;
+}
+/* Bg header config */
+.bg-header{
+    border: 1px solid red;
+}
