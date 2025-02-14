@@ -10,7 +10,7 @@ This is a solution to the [clipboard-landing-page-master challenge on Frontend M
 
 ## Links
 
--Live Site URL: [here]()
+-Live Site URL: [here](https://github.com/LukebaKueno/clipboard-landing-page-master)
 
 ## My Process 
 
