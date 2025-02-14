@@ -46,17 +46,14 @@ p{
 .first{
     margin-top: -12rem;
     max-width: 50%;
-    border: 1px solid blue;
     display: flex;
     flex-direction:column ;
     align-items: center;
 }
 .first>.logoImg{
-    border: 1px solid ;
     margin-bottom: 2rem;
 }
 .first>.history{
-    border: 1px solid ;
     width: 80%;
     padding: 1rem 0;
 }
@@ -83,14 +80,12 @@ button{
 .sumary{
     margin-top: 6rem;
     max-width: 50%;
-    border: 1px solid blue;
     display: flex;
     flex-direction:column ;
     align-items: center;
     justify-content: center;
 }
 .sumary>.news{
-    border: 1px solid ;
     width: 80%;
 }
 /* end */
@@ -98,10 +93,8 @@ button{
 /* second section */
 .second{
     display: flex;
-    
     align-items: center;
     gap: 6rem;
-    border: 1px solid blue;
     max-width: 100%;
 }
 /* .second>.desktop{
@@ -128,7 +121,6 @@ button{
     max-width: 80%;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .third .cards{
@@ -156,11 +148,8 @@ button{
     justify-content:center ;
     align-items: center;
     gap: 5rem;
-    border: 1px solid;
 }
-.publicity div{
-    border: 1px solid blue;
-}
+
 
 /* end */
 
@@ -173,12 +162,10 @@ footer{
     background-color: rgba(159, 171, 178, 0.193);
 }
 footer .foot{
-    border: 1px solid blue;
     display: flex;
     gap: 6rem;
 }
 .foot >div>span{
-    border: 1px solid ;
     display: block;
 }
 
@@ -246,4 +233,108 @@ footer .foot{
         padding: 0 0.9rem;
     }
 }
+/* Responsive */
+
+/* Responsive mobile*/
+@media only screen and (max-width:767px){
+    .first{
+        margin-top: -1rem;
+        max-width: 90%;
+    }
+    .first>.history{
+        width: 93%;
+        padding: 1rem 0;
+    }
+    .first>.history h1{
+        font-size: xx-large;
+        font-weight: 600;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 93%;
+    }
+    button{
+        width: 90%;
+    }
+    .buttons>.btnOne{
+        margin: 0;
+    }
+    .buttons>.btnSecond{
+        margin: 0  ;
+    }
+
+    .sumary{
+        max-width: 90%;
+        margin-top: 10rem;
+    }
+
+    .second{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .second>.detail{
+        max-width: 50%;
+    }
+    
+    .details{
+        margin-bottom: 3rem;
+    }
+    .details p{
+        text-align: center;
+        width: 100%;
+    }
+    .details h3{
+        text-align: center;
+    }
+    .desktop{
+        text-align: center;
+    }
+    .desktop img{
+        width: 90%;
+    }
+
+    .img_deskmobile{
+        text-align: center;
+    }
+    .img_deskmobile img{
+        width: 90%;
+    }
+    .third{
+        max-width: 90%;
+    }
+    
+    .cards div{
+        width: 70%;
+    }
+
+    .third .cards{
+        display: grid;
+        place-items:center ;
+        gap: 1rem;
+    }
+    .publicity{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+        gap: 3rem;
+        padding: 3rem 0;
+    }
+    footer .foot{
+        flex-direction: column;
+        gap:2rem;
+        text-align: center;
+    }
+    .links span{
+        padding: 0 0.9rem;
+    }
+}
+
 /* Responsive */
