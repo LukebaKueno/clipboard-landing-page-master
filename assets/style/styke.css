@@ -61,18 +61,33 @@ p{
 button{
     padding:0.8rem 1rem ;
     border: none;
+    outline: none;
     border-radius: 20px;
+    cursor: pointer; 
+    transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
+
+button:active{
+    scale: 0.95;
+}
+
 .buttons>.btnOne{
     background: hsl(171, 66%, 44%);
     color: whitesmoke;
     margin-right: 0.5rem;
+}
+.buttons>.btnOne:hover{
+    box-shadow: 2px 1px 5px 1px hsl(171, 66%, 44%);
 }
 .buttons>.btnSecond{
     background: hsl(233, 100%, 69%);
     color: whitesmoke;
     margin-left: 0.5rem;
 }
+.buttons>.btnSecond:hover{
+    box-shadow: 2px 2px 7px 1px hsl(233, 100%, 69%);
+}
+
 /* end */
 
 
