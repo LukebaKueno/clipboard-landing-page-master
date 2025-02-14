@@ -8,10 +8,11 @@
     padding: 0;
     margin: 0;
 }
-h1{
+h1, h2,h3{
     text-align: center;
     color: hsl(210, 10%, 33%);
     word-wrap:break-word;
+    margin-bottom: 0.4rem;
 }
 p{
     color: hsl(201, 11%, 66%);
@@ -26,6 +27,7 @@ p{
     flex-direction: column ;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 /* Bg header config */
 .bg-header{
@@ -41,7 +43,6 @@ p{
     display: flex;
     flex-direction:column ;
     align-items: center;
-    justify-content: center;
 }
 .first>.logoImg{
     border: 1px solid ;
@@ -49,7 +50,7 @@ p{
 }
 .first>.history{
     border: 1px solid ;
-    width: 60%;
+    width: 70%;
     padding: 1rem 0;
 }
 .first>.buttons{
@@ -70,3 +71,49 @@ button{
     color: whitesmoke;
     margin-left: 0.5rem;
 }
+/* end */
+
+
+/* Sumary */
+.sumary{
+    margin-top: 6rem;
+    max-width: 70%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.sumary>.news{
+    border: 1px solid ;
+    width: 70%;
+}
+/* end */
+
+/* second section */
+.second{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 6rem;
+    border: 1px solid blue;
+    max-width: 100%;
+}
+/* .second>.desktop{
+    border: 1px solid red;
+} */
+.second>.detail{
+    max-width: 30%;
+}
+
+.details{
+    margin-bottom: 3rem;
+}
+.details p{
+    text-align: start;
+    width: 79%;
+}
+.details h3{
+    text-align: start;
+}
+/* end */
