@@ -9,6 +9,15 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    transition: 0.1s ;
+    cursor: pointer;
+}
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
 h1, h2,h3{
     text-align: center;
     color: hsl(210, 10%, 33%);
@@ -54,8 +63,7 @@ p{
     width: 80%;
     padding: 1rem 0;
 }
-.first>.buttons{
-}
+
 button{
     padding:0.8rem 1rem ;
     border: none;
@@ -118,9 +126,6 @@ button{
 }
 /* end */
 
-.img_desk_mobile{
-}
-
 /* third section */
 .third{
     max-width: 80%;
@@ -159,6 +164,30 @@ button{
 }
 .publicity div{
     border: 1px solid blue;
+}
+
+/* end */
+
+/* footer */
+footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(159, 171, 178, 0.193);
+}
+footer .foot{
+    border: 1px solid blue;
+    display: flex;
+    gap: 6rem;
+}
+.foot >div>span{
+    border: 1px solid ;
+    display: block;
+}
+
+.links span{
+    padding: 0 0.6rem;
 }
 
 /* end */
