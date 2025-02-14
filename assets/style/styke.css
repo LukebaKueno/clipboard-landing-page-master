@@ -55,7 +55,6 @@ p{
     padding: 1rem 0;
 }
 .first>.buttons{
-    margin-top: 1rem;
 }
 button{
     padding:0.8rem 1rem ;
@@ -145,4 +144,21 @@ button{
     border: 1px solid red;
     margin: 2rem 0; 
 }
+/* end */
+
+/* publicity */
+
+
+.publicity{
+    min-width: 80%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5rem;
+    border: 1px solid;
+}
+.publicity div{
+    border: 1px solid blue;
+}
+
 /* end */
