@@ -1,6 +1,6 @@
 @font-face {
     font-family: Bai;
-    src: url(../fonts/baijamjuree/BaiJamjuree-Regular.ttf);
+    src: url(../fonts/baijamjuree/BaiJamjuree-Medium.ttf);
 }
 
 *{
@@ -8,12 +8,65 @@
     padding: 0;
     margin: 0;
 }
+h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    word-wrap:break-word;
+}
+p{
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    word-wrap: break-word;
+}
 
 .everything{
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
 }
 /* Bg header config */
 .bg-header{
     border: 1px solid red;
+}
+
+/* Setion First*/
+
+.first{
+    margin-top: -12rem;
+    max-width: 70%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+.first>.logoImg{
+    border: 1px solid ;
+    margin-bottom: 2rem;
+}
+.first>.history{
+    border: 1px solid ;
+    width: 60%;
+    padding: 1rem 0;
+}
+.first>.buttons{
+    margin-top: 1rem;
+}
+button{
+    padding:0.8rem 1rem ;
+    border: none;
+    border-radius: 20px;
+}
+.buttons>.btnOne{
+    background: hsl(171, 66%, 44%);
+    color: whitesmoke;
+    margin-right: 0.5rem;
+}
+.buttons>.btnSecond{
+    background: hsl(233, 100%, 69%);
+    color: whitesmoke;
+    margin-left: 0.5rem;
 }
